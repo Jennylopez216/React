@@ -1,0 +1,24 @@
+/*Cargo los iconos de bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/*Cargo de google fonts la fuente inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* creacion de variables */
+:root{
+    --primary-color: #262629;
+    --secondary-color: #e6e6e6;
+    --bg-color: #ededed;
+    --ff-text: "Inter", sans-serif;
+}
+
+/*Normalizacion */
+
+*{
+    /* les quito el margen */
+    margin: 0;
+    /*les quito el padding( el espacio que rodea el contenido de un elemento HTML) */
+    padding: 0;
+    /*  */
+    box-sizing: border-box;
+}
